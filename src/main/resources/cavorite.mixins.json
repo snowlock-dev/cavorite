@@ -1,5 +1,5 @@
 {
-	"required": true,
+	"required": false,
 	"package": "net.snowlock.cavorite.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [

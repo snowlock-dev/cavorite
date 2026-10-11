@@ -1,9 +1,24 @@
 # Cavorite
 
-## Setup
+A simple minecraft mod adding a all new metal: Cavorite!
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+*(Inspired by the fictional metal of the same name from HG Wells' science fiction)*
 
-## License
+## Intro
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+I built cavorite as a simple introduction to minecraft mod making. Currently the mod is in a unfinished state.
+
+Cavorite is currently only for: 
+ * MInecraft 21.1.2
+ * Fabric 1.19.2
+
+## To-do
+
+- [ ] Add ore generation
+- [ ] Add armour crafting recipes
+- [ ] Add tools crafting recipes
+- [ ] Create better screenshots
+
+## Licensing
+
+Licensed under [CC0-1.0](LICENSE)

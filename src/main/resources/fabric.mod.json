@@ -3,13 +3,13 @@
 	"id": "cavorite",
 	"version": "${version}",
 	"name": "Cavorite",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Cavorite is a simple minecraft mod adding a all new metal: Cavorite!",
 	"authors": [
-		"Me!"
+		"snowlock"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/user/snowlock",
+		"sources": "https://github.com/snowlock-dev/cavorite"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/cavorite/icon.png",
@@ -18,22 +18,17 @@
 		"main": [
 			"net.snowlock.cavorite.Cavorite"
 		],
-		"client": [
-			"net.snowlock.cavorite.client.CavoriteClient"
-		],
 		"fabric-datagen": [
-			"net.snowlock.cavorite.client.CavoriteDataGenerator"
+			"net.snowlock.cavorite.CavoriteDataGenerator"
 		]
 	},
 	"mixins": [
-		"cavorite.mixins.json",
-		{
-			"config": "cavorite.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	        {
+	            "config": "cavorite.mixins.json"
+	        }
+	    ],
 	"depends": {
-		"fabricloader": ">=0.19.5",
+		"fabricloader": ">=0.19.2",
 		"minecraft": "~26.1.2",
 		"java": ">=25",
 		"fabric-api": "*"
