@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cavorite:block/raw_cavorite_block"
+  }
+}

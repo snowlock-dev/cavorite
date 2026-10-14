@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cavorite:block/raw_cavorite_block"
+    }
+  }
+}
