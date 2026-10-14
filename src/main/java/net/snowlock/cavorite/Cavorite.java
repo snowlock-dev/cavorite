@@ -1,5 +1,6 @@
 package net.snowlock.cavorite;
 import net.snowlock.cavorite.item.ModItems;
+import net.snowlock.cavorite.block.ModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
@@ -16,6 +17,7 @@ public class Cavorite implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Cavorite Initialised.");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

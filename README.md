@@ -12,6 +12,9 @@ Cavorite is currently only for:
  * MInecraft 21.1.2
  * Fabric 1.19.2
 
+
+Ore texture adapted from 1.17's iron ore texture (snapshot 21w08a)
+
 ## To-do
 
 - [ ] Add ore generation

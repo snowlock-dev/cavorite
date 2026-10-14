@@ -1,5 +1,10 @@
 {
     "item.cavorite.raw_cavorite": "Raw Cavorite",
     "item.cavorite.cavorite_plate": "Cavorite Plate",
-    "item.cavorite.cavorite_ingot": "Cavorite Ingot"
+    "item.cavorite.cavorite_ingot": "Cavorite Ingot",
+
+    "block.cavorite.cavorite_block": "Cavorite Block",
+    "block.cavorite.cavorite_ore": "Cavorite Ore",
+    "block.cavorite.cavorite_deepslate_ore": "Deepslate Cavorite Ore",
+    "block.cavorite.raw_cavorite_block": "Raw Cavorite Block"
 }
