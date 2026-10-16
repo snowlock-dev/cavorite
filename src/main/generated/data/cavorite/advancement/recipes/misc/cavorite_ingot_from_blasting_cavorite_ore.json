@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cavorite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cavorite:cavorite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cavorite:cavorite_ingot_from_blasting_cavorite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cavorite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cavorite:cavorite_ingot_from_blasting_cavorite_ore"
+    ]
+  }
+}

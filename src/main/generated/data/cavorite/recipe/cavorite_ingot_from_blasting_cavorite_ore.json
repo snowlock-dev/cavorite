@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.25,
+  "group": "cavorite",
+  "ingredient": "cavorite:cavorite_ore",
+  "result": {
+    "id": "cavorite:cavorite_ingot"
+  }
+}

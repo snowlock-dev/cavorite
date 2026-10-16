@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "cavorite:cavorite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "cavorite:cavorite_ingot"
+  }
+}

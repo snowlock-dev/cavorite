@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:stick",
+    "c": "cavorite:cavorite_ingot",
+    "i": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " cc",
+    " Si",
+    " S "
+  ],
+  "result": {
+    "id": "cavorite:cavorite_axe"
+  }
+}

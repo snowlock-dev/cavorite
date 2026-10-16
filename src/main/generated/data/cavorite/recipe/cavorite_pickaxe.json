@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "cavorite:cavorite_plate",
+    "S": "minecraft:stick",
+    "c": "cavorite:cavorite_ingot",
+    "i": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "cCc",
+    "iSi",
+    " S "
+  ],
+  "result": {
+    "id": "cavorite:cavorite_pickaxe"
+  }
+}
