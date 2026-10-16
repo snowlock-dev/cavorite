@@ -3,6 +3,12 @@
     "item.cavorite.cavorite_plate": "Cavorite Plate",
     "item.cavorite.cavorite_ingot": "Cavorite Ingot",
 
+    "item.cavorite.cavorite_sword": "Cavorite Sword",
+    "item.cavorite.cavorite_pickaxe": "Cavorite Pickaxe",
+    "item.cavorite.cavorite_shovel": "Cavorite Shovel",
+    "item.cavorite.cavorite_axe": "Cavorite Axe",
+    "item.cavorite.cavorite_hoe": "Cavorite Hoe",
+
     "block.cavorite.cavorite_block": "Cavorite Block",
     "block.cavorite.cavorite_ore": "Cavorite Ore",
     "block.cavorite.cavorite_deepslate_ore": "Deepslate Cavorite Ore",

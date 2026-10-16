@@ -9,7 +9,7 @@ A simple minecraft mod adding a all new metal: Cavorite!
 I built cavorite as a simple introduction to minecraft mod making. Currently the mod is in a unfinished state.
 
 Cavorite is currently only for: 
- * MInecraft 21.1.2
+ * Minecraft 21.1.2
  * Fabric 1.19.2
 
 
@@ -18,9 +18,9 @@ Ore texture adapted from 1.17's iron ore texture (snapshot 21w08a)
 ## To-do
 
 - [x] Add ore drops
+- [x] Add tools crafting recipes
 - [ ] Add ore generation
 - [ ] Add armour crafting recipes
-- [ ] Add tools crafting recipes
 - [ ] Create better screenshots
 
 ## Licensing

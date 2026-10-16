@@ -8,7 +8,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 
 import java.util.function.Function;
 
@@ -16,6 +16,12 @@ public class ModItems {
     public static final Item RAW_CAVORITE = registerItem("raw_cavorite", Item::new);
     public static final Item CAVORITE_INGOT = registerItem("cavorite_ingot", Item::new);
     public static final Item CAVORITE_PLATE = registerItem("cavorite_plate", Item::new);
+    
+    public static final Item CAVORITE_SWORD = registerItem("cavorite_sword", properties -> new Item(properties.sword(ModToolMaterials.CAVORITE, 3, -2.4f)));
+    public static final Item CAVORITE_PICKAXE = registerItem("cavorite_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.CAVORITE, 1, -2.8f)));
+    public static final Item CAVORITE_SHOVEL = registerItem("cavorite_shovel", properties -> new ShovelItem(ModToolMaterials.CAVORITE, 1.5f, -3.0f, properties));
+    public static final Item CAVORITE_AXE = registerItem("cavorite_axe", properties -> new AxeItem(ModToolMaterials.CAVORITE, 6f, -3.2f, properties));
+    public static final Item CAVORITE_HOE = registerItem("cavorite_hoe", properties -> new HoeItem(ModToolMaterials.CAVORITE, 0f, -3.0f, properties));
 
 
 

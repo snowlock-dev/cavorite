@@ -3,6 +3,7 @@ package net.snowlock.cavorite.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.snowlock.cavorite.block.ModBlocks;
+import net.snowlock.cavorite.tags.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.BlockTags;
 
@@ -26,6 +27,12 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.RAW_CAVORITE_BLOCK)
                 .add(ModBlocks.CAVORITE_ORE)
                 .add(ModBlocks.CAVORITE_DEEPSLATE_ORE);
+
+        valueLookupBuilder(ModTags.Blocks.NEEDS_CAVORITE_TOOL)
+                .forceAddTag(BlockTags.NEEDS_IRON_TOOL);
+
+        valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_CAVORITE_TOOL)
+                .forceAddTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
     }
 }
