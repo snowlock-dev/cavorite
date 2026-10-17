@@ -38,5 +38,16 @@ public class ModItems {
             output.accept(CAVORITE_INGOT);
             output.accept(CAVORITE_PLATE);
         });
+
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(output -> {
+            output.accept(CAVORITE_SWORD);
+        });
+
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {
+            output.accept(CAVORITE_PICKAXE);
+            output.accept(CAVORITE_AXE);
+            output.accept(CAVORITE_SHOVEL);
+            output.accept(CAVORITE_HOE);
+        });
     }
 }

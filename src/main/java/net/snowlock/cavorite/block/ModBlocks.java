@@ -48,11 +48,14 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Cavorite.LOGGER.info("Registering Mod Blocks for " + Cavorite.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> { // split this into the building blcoks and ingredients tabs
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(output -> {
             output.accept(CAVORITE_BLOCK);
+            output.accept(RAW_CAVORITE_BLOCK);
+        });
+
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(output -> {
             output.accept(CAVORITE_ORE);
             output.accept(CAVORITE_DEEPSLATE_ORE);
-            output.accept(RAW_CAVORITE_BLOCK);
         });
     }
 }
